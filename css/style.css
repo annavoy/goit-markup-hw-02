@@ -1,7 +1,9 @@
 body {
     font-family: "Roboto", "Raleway",  sans-serif;
     background-color: #FFFFFF;
-    
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
 }
 a {
     text-decoration: none;
@@ -53,7 +55,7 @@ button {
    color: #2e2f42;
 }
 .page-text {
-    font-weight: 400;
+    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -81,7 +83,7 @@ button {
     color: #2e2f42;
 }
 .main-text {
-    font-weight: 400;
+    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -100,7 +102,7 @@ footer {
     color: #f4f4fd;
 }
 .footer-text {
-    font-weight: 400;
+    
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
