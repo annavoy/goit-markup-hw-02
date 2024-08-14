@@ -20,6 +20,9 @@ ul {
     text-transform: uppercase;
     color: #4d5ae5;
 }
+.nav-span {
+    color: #2e2f42;
+}
 .nav-menu {
     font-weight: 500;
     font-size: 16px;
@@ -116,19 +119,22 @@ button:hover {
     text-align: center;
     color: #434455;
 }
-footer {
+.footer {
     background: #2e2f42;
 }
 .footer-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5 ;
+}
+.span-logo {
     color: #f4f4fd;
 }
 .footer-text {
-    
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
