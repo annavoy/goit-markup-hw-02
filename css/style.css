@@ -13,6 +13,7 @@ ul {
     list-style-type: none;
 }
 .nav-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -37,6 +38,9 @@ a:hover {
 a:active {
     color:  #404BBF;
     ;
+}
+a:focus {
+    color: #404bbf;
 }
 .nav-contacts {
     font-weight: 500;
@@ -66,13 +70,14 @@ a:active {
     letter-spacing: 0.04em;
     background: #4d5ae5;  
     color: #fff;
-    ursor: pointer;
+    cursor: pointer;
 
 }
-button:hover {
-    background-color:#404BBF;
-    
-    
+.head-button:hover {
+    background-color:#404BBF;   
+}
+.head-button:focus {
+    color: #404BBF;
 }
 .page-title {
     font-weight: 500;
@@ -91,13 +96,17 @@ button:hover {
 .title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 .main {
     background-color: #F4F4FD;
+}
+.main-list {
+    background-color: #FFFFFF;
 }
 .main-photo {
     background: url("path_to_image");
@@ -105,7 +114,7 @@ button:hover {
 .main-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
