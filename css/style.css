@@ -77,7 +77,7 @@ a:focus {
     background-color:#404BBF;   
 }
 .head-button:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 .page-title {
     font-weight: 500;
